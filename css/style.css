@@ -115,6 +115,7 @@ h1 {
 }
 
 .img {
+    flex-wrap: wrap; /* para que se adapte en móviles */
   width: 30%;
   min-width: 250px;
 }
