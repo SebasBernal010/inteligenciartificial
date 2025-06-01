@@ -47,8 +47,9 @@ h1 {
 .footer {
     background-color: #015f63;
     color: white;
-    padding: 1rem;
-    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Botón estilizado */
