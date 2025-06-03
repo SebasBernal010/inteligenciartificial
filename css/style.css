@@ -127,3 +127,27 @@ h1 {
   text-align: left;
   margin-left: auto;
 }
+
+ .contenedor {
+      display: flex;
+      height: 100%;
+    }
+
+    .vacio {
+      flex: 1;
+    }
+
+    .contenido {
+      flex: 2;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow-y: auto;
+    }
+
+    .instrucciones h1, .instrucciones h2, .instrucciones h3 {
+      text-align: center;
+    }
+
+    .instrucciones ul {
+      padding-left: 20px;
+    }
